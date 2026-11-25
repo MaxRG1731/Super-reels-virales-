@@ -1,0 +1,11 @@
+{
+  "name": "reel-factory",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Estudio personal de Reels y Shorts. PWA sin backend.",
+  "type": "module",
+  "scripts": {
+    "start": "python3 -m http.server 8080",
+    "test": "node tests/generator.test.mjs && node tests/proxy.test.mjs"
+  }
+}

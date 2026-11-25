@@ -1,0 +1,8 @@
+name = "reel-factory-proxy"
+main = "worker.js"
+compatibility_date = "2024-11-01"
+
+# Variables NO secretas. Los secretos se añaden con `npx wrangler secret put ...` (ver README).
+[vars]
+UPSTREAM_BASE_URL = "https://api.groq.com/openai/v1"
+ALLOWED_ORIGINS = "https://TU-USUARIO.github.io"
